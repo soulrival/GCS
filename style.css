@@ -15,12 +15,12 @@ footer {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left:  30px;
-    background: #400;
+    background: #444;
     color: yellow;
 }
 a.foo:hover {
   text-decoration-color: white;
-  color: white;
+  color: purple;
 }
 a.foo {
   text-decoration-color: black;
