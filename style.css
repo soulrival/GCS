@@ -6,15 +6,19 @@
 	border: 1px black;
 }
 
+body {
+	background: #00BFFF;
+}
+
 h4 {
-	background: black;
+	background: #99bcff;
 	color: white;
-	border: 3px blue;
+	border: 3px #7B68EE;
 }
 
 ol {
-	border: 3px blue;
-	background: black;
+	border: 3px #7B68EE;
+	background: #99bcff;
 	color: white;
 }
 
@@ -55,30 +59,12 @@ tr:hover td {
   background: #99bcff;
 }
 
-/*#table {
-    line-height:200%;
-	border: 5px solid yellow;
-}
-
-th {
-   border: 3px solid grey;
-   font-size: 14px;
-}
-
-tr {
-	border: 3px solid grey;
-}
-
-td {
-	border: 3px solid grey;
-}*/
-
 footer {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left:  30px;
-    background: black;
-    color: purple;
+    background: #99bcff;
+    color: black;
 	border: 1px solid grey;
 }
 
