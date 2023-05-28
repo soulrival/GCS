@@ -1,30 +1,93 @@
 .header {
     justify-content: center;
     text-align:center;
-	color: black
+	color: white;
+	background: black;
+	border: 1px black;
 }
+
+h4 {
+	background: black;
+	color: white;
+	border: 3px blue;
+}
+
+ol {
+	border: 3px blue;
+	background: black;
+	color: white;
+}
+
 ol li {
     list-style-position: inside;
 }
+
 .exam {
     font-family: 'Times New Roman', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#table {
-    line-height:200%
-	border: 1px solid grey;
+
+caption {
+	background: #99bcff;
+   caption-side: top;
+   text-align: center;
+   padding: 10px 0;
+   font-size: 18px;
+   border: 3px solid black;
 }
+
+table {
+	line-height:200%;
+  border: 3px solid black;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  padding: 10px;
+  background:#ccddff;
+}
+td {
+  color: #669;
+  border-top: 1px dashed white;
+  padding: 10px;
+  background:#ccddff;
+}
+tr:hover td {
+  background: #99bcff;
+}
+
+/*#table {
+    line-height:200%;
+	border: 5px solid yellow;
+}
+
+th {
+   border: 3px solid grey;
+   font-size: 14px;
+}
+
+tr {
+	border: 3px solid grey;
+}
+
+td {
+	border: 3px solid grey;
+}*/
+
 footer {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left:  30px;
-    background: #444;
-    color: green;
+    background: black;
+    color: purple;
+	border: 1px solid grey;
 }
+
 a.foo:hover {
   text-decoration-color: white;
-  color: purple;
+  color: blue;
 }
+
 a.foo {
-  text-decoration-color: black;
-  color: black;
+  text-decoration-color: white;
+  color: white;
 }
